@@ -1,15 +1,11 @@
 // Ignorera min förra commit, denna är korrekt
 int last=0;
+int boxSize = 42;
 
 void setup() {
-  fullScreen();
-    for (int i = 0; i < 6; i++) {
-
-
-    for (int j = 0; j < 4; j++) {
-      calenderWindows(600+j*200, 100+150*i, 100, 100);
-    }
-  }
+  //fullScreen();
+  size(1920,1080);
+   boxes();
 }
 
 void draw() {
