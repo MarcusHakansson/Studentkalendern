@@ -6,20 +6,20 @@ int i=5;
 
 boolean[] windowDay = new boolean[24];
 boolean alreadyOpen=false;
-PImage img;
+PImage backgroundImg;
 
 
 
 void setup() {
   //fullScreen();
-  img = loadImage("niagara.jpg");
+  backgroundImg = loadImage("niagara.jpg");
   size(1920,1080);
-  background(img);
+  background(backgroundImg);
    boxes();
+  initBoxPics();
 }
 
 void draw() {
   openOnTime();
-  myMouseClicked();
   
 }
