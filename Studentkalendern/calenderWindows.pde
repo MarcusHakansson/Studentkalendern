@@ -9,7 +9,7 @@ void boxes() {
 
   for (int i = 0; i < myBoxes.length; i = i + 1) {
 
-    fill(255, 85, 0);
+    fill(255, 85, 0,60);
     rect(xPos, yPos, 150, 150 , 5);
     myBoxes[i][0] = xPos;
     myBoxes[i][1] = yPos;
