@@ -1,5 +1,7 @@
+PImage boxImg;
+
 void drawPic(int boxNumber){
-  PImage  img = loadImage(boxPictures[boxNumber]);
+  boxImg = loadImage(boxPictures[boxNumber]);
   imageMode(CENTER); 
-  image(img, width/2, height/2);
+  image(boxImg, width/2, height/2);
 }
