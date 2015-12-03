@@ -9,15 +9,16 @@ void boxes() {
 
   for (int i = 0; i < myBoxes.length; i = i + 1) {
 
-    fill(255, 255, 255, 100);
-    rect(xPos, yPos, 100, 100 , 5);
+    fill(255, 85, 0);
+    rect(xPos, yPos, 150, 150 , 5);
     myBoxes[i][0] = xPos;
     myBoxes[i][1] = yPos;
-    
-    xPos = xPos + 120;
-    if (xPos + 71 > width) {
+   
+    xPos = xPos + 220;
+    if (xPos + 110 > width) {
       xPos = 65;
-      yPos = yPos + 120;
+      yPos = yPos + 220;
+     
     }
   }
 }

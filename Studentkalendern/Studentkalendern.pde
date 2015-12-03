@@ -1,6 +1,6 @@
 // Ignorera min förra commit, denna är korrekt
 int last=0;
-int boxSize = 42;
+int boxSize = 150;
 int myDay = day();
 int i=5;
 
@@ -17,4 +17,6 @@ void setup() {
 
 void draw() {
   openOnTime();
+  myMouseClicked();
+  
 }
