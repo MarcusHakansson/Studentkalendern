@@ -18,7 +18,12 @@ void setup() {
 }
 
 void draw() {
+<<<<<<< HEAD
   println(last1,millis(),myCount);
   
   //openOnTime();
+=======
+  openOnTime();
+  //doBoxAnimation();
+>>>>>>> origin/master
 }
