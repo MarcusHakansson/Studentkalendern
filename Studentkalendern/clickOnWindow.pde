@@ -11,7 +11,8 @@ void mouseClicked() {
     }  
   }
   if (boxFound == false){
-     background(backgroundImg);
-     boxes();
+    currentBoxPicture = -1;
+    background(backgroundImg);
+    boxes();
   }
 }

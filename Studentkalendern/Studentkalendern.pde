@@ -18,6 +18,7 @@ void setup() {
 }
 
 void draw() {
-  openOnTime();
+  //openOnTime();
   doBoxAnimation();
+  switchPics();
 }
