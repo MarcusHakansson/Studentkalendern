@@ -23,7 +23,7 @@ void setup() {
 
 void draw() {
   myDay = day();
-  openOnTime();
+  //openOnTime();
   doBoxAnimation();
   switchPics();
 }

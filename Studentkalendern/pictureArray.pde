@@ -1,4 +1,4 @@
-String[][] boxPictures = new String[24][2];
+String[][] boxPictures = new String[24][2];          //Picture-array structure to have 1/2/3 pictures showing depending on the box clicked.
 
 void initBoxPics(){
   boxPictures[0][0] = "bilder/SCOOTER.jpg";

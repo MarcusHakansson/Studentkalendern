@@ -1,7 +1,7 @@
 int[][] myBoxes;
 
 
-void boxes() {
+void boxes() {               //The method which draws the boxes on the right x and y values.
   int xPos = 100;
   int yPos = 150;
   int numbers=1;

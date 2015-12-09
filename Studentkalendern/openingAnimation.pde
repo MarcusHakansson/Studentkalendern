@@ -8,7 +8,7 @@ int boxWidth = 0;
 int boxHeight = 0;
 int time = 0;
 
-void drawPic(int boxNumber){
+void drawPic(int boxNumber){                      //The animation showing the pictures and the frame.
   currentBoxNumber = boxNumber;
   boxImg = loadImage(boxPictures[boxNumber][0]);
   imageMode(CENTER);
@@ -60,7 +60,7 @@ void doBoxAnimation() {
 }
 
 void switchPics() {
-  int delay = 3000;
+  int delay = 5000;
   boolean updateImage = false;
   
   if (currentBoxPicture == 0 && millis() - time > delay) {
