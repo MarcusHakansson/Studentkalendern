@@ -9,8 +9,7 @@ void initBoxPics(){
   boxPictures[2][0] = "bilder/EDURAM1.jpg";
   boxPictures[2][1] = "bilder/EDURAM3.jpg";
   
-  boxPictures[3][0] = "bilder/KUGGA1.jpg";
-  boxPictures[3][1] = "bilder/KUGGA2.jpg";
+  boxPictures[3][0] = "bilder/INTERNET.jpg";
   
   boxPictures[4][0] = "bilder/FINIKANTEN1.jpg";
   boxPictures[4][1] = "bilder/FINIKANTEN2.jpg";
