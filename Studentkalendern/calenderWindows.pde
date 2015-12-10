@@ -18,7 +18,7 @@ void boxes() {               //The method which draws the boxes on the right x a
     myBoxes[i][0] = xPos;
     myBoxes[i][1] = yPos;
     fill(0,0,0);
-    text(numbers,xPos+55  ,yPos+80);
+    text(numbers,xPos+75  ,yPos+115);
       numbers++;
       
     xPos = xPos + 220;
